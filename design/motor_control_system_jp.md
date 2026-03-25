@@ -1,4 +1,5 @@
-# RTOSを使ったモータ制御システム 
+# RTOSを使ったモータ制御システム
+ 
 [English Version](./motor_control_system_en.md)
 
 ## 設計課題
