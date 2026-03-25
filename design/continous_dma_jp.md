@@ -77,8 +77,8 @@
 
 
 ## 参考文献
-- [1]  [Hardware-in-the-loop: key challenges and considerations](https://www.automotivetestingtechnologyinternational.com/industry-opinion/hardware-in-the-loop-key-challenges-and-considerations.html)
-- [2]　[National Instruments Application Notes: Key Considerations for Powertrain HIL Test](https://www.ni.com/pdf/app-note/HIL-AppNotes-IA.pdf)
+- [1] [Hardware-in-the-loop: key challenges and considerations](https://www.automotivetestingtechnologyinternational.com/industry-opinion/hardware-in-the-loop-key-challenges-and-considerations.html)
+- [2] [National Instruments Application Notes: Key Considerations for Powertrain HIL Test](https://www.ni.com/pdf/app-note/HIL-AppNotes-IA.pdf)
 
 
 ***
