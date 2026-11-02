@@ -22,7 +22,7 @@ Here, T_setup represents DMA configuration and initiation, and T_sync represents
 
 One possible solution is to implement both I/O processing and the plant model entirely on FPGA. However, this approach lacks flexibility for model changes and incurs high development cost. Therefore, a method is required to reduce only the I/O latency while maintaining a general-purpose CPU-based environment.
 
-## Approach
+## Solution Approach
 
 In the conventional approach (Fig. 2), the CPU intervenes in every DMA transaction, introducing T_setup and T_sync.
 
@@ -62,7 +62,7 @@ Additionally, since DMA retries occupy the bus, contention with other bus master
 
 Furthermore, ensuring data consistency requires that system assumptions regarding memory visibility and write ordering (e.g., cache coherency and memory barriers) are satisfied.
 
-## Notes
+## Additional Notes
 
 This design was implemented to reduce I/O latency in a HILS system and evaluated on a 33 MHz / 32-bit PCI bus with a real-time Linux environment (PREEMPT_RT). For a transfer size of 6 words (12 words round-trip), the I/O latency was reduced from approximately 62 μs to 5.6 μs, achieving about a 90% reduction (62 μs → 5.6 μs) (Fig. 4). Jitter was also reduced to within 1 μs.
 
